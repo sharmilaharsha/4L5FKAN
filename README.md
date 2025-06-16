@@ -24,31 +24,31 @@ cd 4L5FKAN
 # Project Structure
 1-PDF-Parsers
         
-        |----- Parser-1.py	
-        |----- Parser-2.py	
-        |----- Merge.py
+|----- Parser-1.py	
+|----- Parser-2.py	
+|----- Merge.py
 	
 2-KANtraining
 
-	|----- 4L5FKANwithExplanations.py 
-  	|----- Merge.py
-  	|----- TrainingKAN.py
-  	|----- TestingKAN.py
+|----- 4L5FKANwithExplanations.py 
+|----- Merge.py
+|----- TrainingKAN.py
+|----- TestingKAN.py
   
 3-AdvSampleGenerationWGAN-GP
 
-	|-----WGAN-GP-AdvSamplestoCSV.py
-	|-----WGAN-GP-AdvSampleGeneration.py
-	|-----models
-	|-----generators
+|-----WGAN-GP-AdvSamplestoCSV.py
+|-----WGAN-GP-AdvSampleGeneration.py
+|-----models
+|-----generators
  
 4-BestRatioSplitTestForKANtraining
 
-        |-----Git-SSP-PDF4L5FKANbestRatioSplit.ipynb
+|-----Git-SSP-PDF4L5FKANbestRatioSplit.ipynb
 	
 5-KANBenchmarkingSoTAModels
 
-        |-----KANvsNNsAccTrLossComp.ipynb
+|-----KANvsNNsAccTrLossComp.ipynb
 	
 6-OurDatasetSample
 PDFfeaturesDoc.pdf
@@ -104,15 +104,15 @@ Output adv_samples.csv
 
 adv_samples.csv contain features for adversarial samples
 
-Run Merge.py to merge  both dataset.csv and adversarial.csv
+Run Merge.py to merge  both dataset.csv and adv_samples.csv 
 
 Whole.csv is merged data containing both original and generated samples
 
 # Step 4: Adversarial Testing
 
-Run TestingKAN.py using  adversarial.csv
+Run TestingKAN.py using  adv_samples.csv 
 
-Tabulate the metrics-deviation in actual Performance can be noticed
+Tabulate the metrics - deviation in actual Performance can be noticed
 
 Decreased Performance showing adversarial resistance
 
