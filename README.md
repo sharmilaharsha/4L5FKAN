@@ -51,8 +51,11 @@ cd 4L5FKAN
 	|-----KANvsNNsAccTrLossComp.ipynb
 	
 6-OurDatasetSample
+
 PDFfeaturesDoc.pdf
+
 README.md
+
 requirements.txt
 
 
