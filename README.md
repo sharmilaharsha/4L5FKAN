@@ -24,24 +24,23 @@ cd 4L5FKAN-resilient-to-GAN
         |----- Merge.py
 	
 2-KANtraining
-
-		|----- 4L5FKANwithExplanations.py 
-  
-		|----- Merge.py
-  
-		|----- TrainingKAN.py
-  
-		|----- TestingKAN.py
+	|----- 4L5FKANwithExplanations.py 
+  	|----- Merge.py
+  	|----- TrainingKAN.py
+  	|----- TestingKAN.py
   
 3-AdvSampleGenerationWGAN-GP
-		|-----WGAN-GP-AdvSamplestoCSV.py
-		|-----WGAN-GP-AdvSampleGeneration.py
-		|-----models
-		       |-----generators
+	|-----WGAN-GP-AdvSamplestoCSV.py
+	|-----WGAN-GP-AdvSampleGeneration.py
+	|-----models
+	|-----generators
+ 
 4-BestRatioSplitTestForKANtraining
         |-----Git-SSP-PDF4L5FKANbestRatioSplit.ipynb
+	
 5-KANBenchmarkingSoTAModels
         |-----KANvsNNsAccTrLossComp.ipynb
+	
 6-OurDatasetSample
 PDFfeaturesDoc.pdf
 
