@@ -6,12 +6,16 @@ Work submitted to Applied Soft Computing
 
 ## Features
 Novel defense mechanisms against GAN-generated adversarial attacks
+
 Experimental framework for evaluating model robustness
+
 Reproducible experiments and results
+
 Designed for extensibility to other adversarial scenarios
 
 ## Installation
 Clone the repository:
+
 git clone https://github.com/sharmilaharsha/4L5FKAN.git
 
 cd 4L5FKAN
@@ -51,7 +55,9 @@ PDFfeaturesDoc.pdf
 
 
 ## Install dependencies:
+
 Ensure you have Python 3.7+ installed.
+
 ## Install required packages:
 
 pip install -r requirements.txt
