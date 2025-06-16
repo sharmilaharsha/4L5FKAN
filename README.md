@@ -86,7 +86,7 @@ Run Merge.py
 output: dataset.csv
 
 
-# Step 2:
+# Step 2: 4L5FKAN Training
 Run TrainingKAN.py
 
 Run TestingKAN.py
