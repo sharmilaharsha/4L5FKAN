@@ -19,10 +19,8 @@ cd 4L5FKAN-resilient-to-GAN
 # Structure
 1-PDF-Parsers
         
-        |----- Parser-1.py
-	
-        |----- Parser-2.py
-	
+        |----- Parser-1.py	
+        |----- Parser-2.py	
         |----- Merge.py
 	
 2-KANtraining
