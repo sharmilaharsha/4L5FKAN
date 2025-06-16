@@ -12,7 +12,7 @@ Designed for extensibility to other adversarial scenarios
 
 ## Installation
 Clone the repository:
-git clone https://github.com/sharmilaharsha/4L5FKAN-resilient-to-GAN.git
+git clone https://github.com/sharmilaharsha/4L5FKAN.git
 cd 4L5FKAN-resilient-to-GAN
 
 ## Install dependencies:
