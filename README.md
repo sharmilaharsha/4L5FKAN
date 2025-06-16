@@ -18,15 +18,23 @@ cd 4L5FKAN-resilient-to-GAN
 
 # Structure
 1-PDF-Parsers
-        |
+        
         |----- Parser-1.py
+	
         |----- Parser-2.py
+	
         |----- Merge.py
+	
 2-KANtraining
+
 		|----- 4L5FKANwithExplanations.py 
+  
 		|----- Merge.py
+  
 		|----- TrainingKAN.py
+  
 		|----- TestingKAN.py
+  
 3-AdvSampleGenerationWGAN-GP
 		|-----WGAN-GP-AdvSamplestoCSV.py
 		|-----WGAN-GP-AdvSampleGeneration.py
