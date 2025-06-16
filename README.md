@@ -25,51 +25,73 @@ pip install -r requirements.txt
 
 # Step-1: PDF features 
 PDF Parsers: it has two scripts to extract the features of a PDF
+
 OurDataset Sample: It has the csv file showing the features extracted by the parsers
 
 Run Parser-1.py
+
 Run Parser-2.py
+
 Run Merge.py 
 
 output: dataset.csv
-split dataset
+
 
 # Step 2:
 Run TrainingKAN.py
+
 Run TestingKAN.py
+
 Tabulate the metrics -Actual Performance
 
 This shows actual performance of KAN
 
 # Step 3: Adversarial Samples generation
+
 MArchive is collection of all the PDFs 
+
 Feature extraction done by our parsers - dataset.csv
+
 dataset.csv is used to generate adversarial samples using WGAN-GP with more than 75% similarity.
 
 Run Git-WGAN-GP-good-DQS-model.py 
+
 Output adv_samples.csv 
+
 adv_samples.csv contain features for adversarial samples
 
 Run Merge.py to merge  both datset.csv and adversarial.csv
+
 Whole.csv is merged data containing both original and generated samples
 
 # Step 4: Adversarial Testing
+
 Run TestingKAN.py using  adversarial.csv
+
 Tabulate the metrics-deviation in actual Performance can be noticed
+
 Decreased Performance showing adversarial resistance
 
 # Step 5: For adversarial Training
+
 Run Git-KfoldKANwithExplanations.py for the dataset Whole.csv
+
 Tabulate the metrics-Improved with adversarial training
+
 Explanations can be derived for the sample identification
 
 --------------------------------------------------------------------
 
-Extra Modules:
+# Extra Modules:
+
 BestRatioSplitTestForKANtraining - to show experiments conducted to choose best spilt ratio
+
 KANBenchmarkingSoTAModels - to show KAN benchmarking performance among atate-of-the-art models
+
 OurDatasetSample - has the sample dataset, Complete dataset will be made available on request
+
 PDFfeaturesDoc.pdf - contains description for all the features of PDF extracted by PDF mining with Parser1 and Parser2
+
 
 
 ## Project Structure
