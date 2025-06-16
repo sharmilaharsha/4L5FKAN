@@ -16,7 +16,7 @@ git clone https://github.com/sharmilaharsha/4L5FKAN.git
 cd 4L5FKAN-resilient-to-GAN
 
 
-# Structure
+# Project Structure
 1-PDF-Parsers
         
         |----- Parser-1.py	
@@ -85,9 +85,9 @@ This shows actual performance of KAN
 
 # Step 3: Adversarial Samples generation
 
-MArchive is collection of all the PDFs 
+MArchive is our collection of all the PDFs 
 
-Feature extraction done by our parsers - dataset.csv
+Feature extraction done by our parsers to - dataset.csv
 
 dataset.csv is used to generate adversarial samples using WGAN-GP with more than 75% similarity.
 
@@ -97,7 +97,7 @@ Output adv_samples.csv
 
 adv_samples.csv contain features for adversarial samples
 
-Run Merge.py to merge  both datset.csv and adversarial.csv
+Run Merge.py to merge  both dataset.csv and adversarial.csv
 
 Whole.csv is merged data containing both original and generated samples
 
@@ -113,11 +113,11 @@ Decreased Performance showing adversarial resistance
 
 Run Git-KfoldKANwithExplanations.py for the dataset Whole.csv
 
-Tabulate the metrics-Improved with adversarial training
+Tabulate the metrics-Improved performance can be noticed with adversarial training
 
 Explanations can be derived for the sample identification
 
---------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 # Extra Modules:
 
@@ -130,19 +130,8 @@ OurDatasetSample - has the sample dataset, Complete dataset will be made availab
 PDFfeaturesDoc.pdf - contains description for all the features of PDF extracted by PDF mining with Parser1 and Parser2
 
 
-
-## Project Structure
-train.py — Training script for baseline and defense models
-
-evaluate.py — Evaluation script for adversarial robustness
-
-models/ — Contains model architectures and defense implementations
-
-data/ — Place your datasets here
-
-results/ — Experiment outputs and logs
-
 ## Dataset Access
+
 Please note that this dataset could be used for research purposes only, and any commercial use of the data is prohibited. To access this dataset, send a request to the following email addresses:
 
 phd2201101012@iiti.ac.in
