@@ -21,7 +21,7 @@ git clone https://github.com/sharmilaharsha/4L5FKAN.git
 cd 4L5FKAN
 
 
-# Project Structure
+## Project Structure
 1-PDF-Parsers
         
 	|----- Parser-1.py	
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-# Step-1: PDF features 
+## Step-1: PDF features 
 PDF Parsers: it has two scripts to extract the features of a PDF
 
 OurDataset Sample: It has the csv file showing the features extracted by the parsers
@@ -86,7 +86,7 @@ Run Merge.py
 output: dataset.csv
 
 
-# Step 2: 4L5FKAN Training
+## Step 2: 4L5FKAN Training
 Run TrainingKAN.py
 
 Run TestingKAN.py
@@ -95,7 +95,7 @@ Tabulate the metrics -Actual Performance
 
 This shows actual performance of KAN
 
-# Step 3: Adversarial Samples generation
+## Step 3: Adversarial Samples generation
 
 MArchive is our collection of all the PDFs 
 
@@ -113,7 +113,7 @@ Run Merge.py to merge  both dataset.csv and adv_samples.csv
 
 Whole.csv is merged data containing both original and generated samples
 
-# Step 4: Adversarial Testing
+## Step 4: Adversarial Testing
 
 Run TestingKAN.py using  adv_samples.csv 
 
@@ -121,7 +121,7 @@ Tabulate the metrics - deviation in actual Performance can be noticed
 
 Decreased Performance showing adversarial resistance
 
-# Step 5: For adversarial Training
+## Step 5: For adversarial Training
 
 Run Git-KfoldKANwithExplanations.py for the dataset Whole.csv
 
@@ -131,7 +131,7 @@ Explanations can be derived for the sample identification
 
 --------------------------------------------------------------------------------------
 
-# Extra Modules:
+## Extra Modules:
 
 BestRatioSplitTestForKANtraining - to show experiments conducted to choose best spilt ratio
 
