@@ -30,9 +30,12 @@ OurDataset Sample: It has the csv file showing the features extracted by the par
 
 Run Parser-1.py
 
+
 Run Parser-2.py
 
+
 Run Merge.py 
+
 
 output: dataset.csv
 
