@@ -15,6 +15,31 @@ Clone the repository:
 git clone https://github.com/sharmilaharsha/4L5FKAN.git
 cd 4L5FKAN-resilient-to-GAN
 
+
+# Structure
+1-PDF-Parsers
+        |
+        |----- Parser-1.py
+        |----- Parser-2.py
+        |----- Merge.py
+2-KANtraining
+		|----- 4L5FKANwithExplanations.py 
+		|----- Merge.py
+		|----- TrainingKAN.py
+		|----- TestingKAN.py
+3-AdvSampleGenerationWGAN-GP
+		|-----WGAN-GP-AdvSamplestoCSV.py
+		|-----WGAN-GP-AdvSampleGeneration.py
+		|-----models
+		       |-----generators
+4-BestRatioSplitTestForKANtraining
+        |-----Git-SSP-PDF4L5FKANbestRatioSplit.ipynb
+5-KANBenchmarkingSoTAModels
+        |-----KANvsNNsAccTrLossComp.ipynb
+6-OurDatasetSample
+PDFfeaturesDoc.pdf
+
+
 ## Install dependencies:
 Ensure you have Python 3.7+ installed.
 ## Install required packages:
