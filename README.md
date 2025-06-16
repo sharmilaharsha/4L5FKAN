@@ -24,9 +24,9 @@ cd 4L5FKAN
 # Project Structure
 1-PDF-Parsers
         
-|----- Parser-1.py	
-|----- Parser-2.py	
-|----- Merge.py
+	|----- Parser-1.py	
+	|----- Parser-2.py	
+	|----- Merge.py
 	
 2-KANtraining
 
