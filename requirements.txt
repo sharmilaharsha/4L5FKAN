@@ -1,0 +1,13 @@
+PyPDF2
+networkx 
+numpy 
+pdfplumber
+csv
+fitz  # PyMuPDF
+torch
+pandas 
+pickle
+math
+sklearn
+matplotlib
+seaborn 
