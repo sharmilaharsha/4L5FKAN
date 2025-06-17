@@ -39,8 +39,7 @@ cd 4L5FKAN
 
 	|-----WGAN-GP-AdvSamplestoCSV.py
 	|-----WGAN-GP-AdvSampleGeneration.py
-	|-----models
-	|-----generators
+	
  
 4-BestRatioSplitTestForKANtraining
 
